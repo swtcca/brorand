@@ -1,5 +1,5 @@
 {
-  "name": "brorand",
+  "name": "swtc-brorand",
   "version": "1.1.0",
   "description": "Random number generator for browsers and node.js",
   "main": "index.js",
@@ -8,20 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:indutny/brorand"
+    "url": "git@github.com:swtcca/brorand.git"
   },
   "keywords": [
     "Random",
     "RNG",
+    "nativescript",
+    "swtc",
     "browser",
     "crypto"
   ],
-  "author": "Fedor Indutny <fedor@indutny.com>",
+  "author": "Lospring Liu <lospringliu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/indutny/brorand/issues"
+    "url": "https://github.com/swtcca/brorand/issues"
   },
-  "homepage": "https://github.com/indutny/brorand",
+  "homepage": "https://github.com/swtcca/brorand",
   "devDependencies": {
     "mocha": "^2.0.1"
   },

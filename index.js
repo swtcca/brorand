@@ -62,4 +62,14 @@ if (typeof self === 'object') {
     };
   } catch (e) {
   }
+  // Nativescript nodeify with nativescript-randombytes
+  try {
+    var randomBytes = require('nativescript-randombytes');
+    if (typeof randomBytes !== 'function')
+      throw new Error('Not supported');
+    Rand.prototype._rand = function _rand(n) {
+      return randomBytes(n);
+    };
+  } catch (e) {
+  }
 }
