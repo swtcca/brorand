@@ -1,7 +1,7 @@
 {
-  "name": "swtc-brorand",
+  "name": "swtc-nativescript-brorand",
   "version": "1.1.1",
-  "description": "Random number generator for browsers and node.js",
+  "description": "Random number generator for nativescript",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter=spec test/**/*-test.js"
@@ -29,5 +29,8 @@
   },
   "browser": {
     "crypto": false
+  },
+  "dependencies": {
+    "nativescript-randombytes": "^1.0.0"
   }
 }
